@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.dlazaro66.qrcodereaderview.QRCodeReaderView
+        android:id="@+id/qrdecoderview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#000000"
+        android:background="#80FFFFFF"
+        android:text="SCANNING QRCODE"
+        />
+
+</RelativeLayout>
